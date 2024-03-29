@@ -1,0 +1,87 @@
+.first-color {
+	background: #ececec;
+}
+
+.second-color {
+	background: #9fd3c7;
+}
+
+.third-color {
+	background: #385170;
+}
+
+.fourth-color {
+	background: #142d4c;
+}
+
+body {
+	width: 80ch;
+	margin: 0;
+	/* justify-content: center;
+	align-items: center;
+	display: flex; */
+}
+
+.content {
+	max-width: 800px;
+	/* Optional: Set a maximum width for the content */
+	padding: 20px;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	/* background-color: #142d4c; */
+	/* border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+nav a {
+	margin: 0 10px;
+}
+
+nav a:hover {
+	color: red;
+	/* Change the color to red when hovered over */
+	text-decoration: underline;
+	/* Add underline when hovered over */
+}
+
+main {
+	margin-bottom: 20px;
+}
+
+footer {
+	margin-top: 20px;
+	font-size: 14px;
+	color: white;
+}
+
+html {
+	background-color: #304e72;
+}
+
+.header {
+	background-color: #576a80;
+	padding-bottom: 5px;
+	color: white;
+}
+
+h1 {
+	margin-bottom: 10px;
+	font-size: 45px;
+}
+
+h2 {
+	margin-bottom: 10px;
+}
+
+img {
+	height: 200px;
+	width: 150px;
+}
